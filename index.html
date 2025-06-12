@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudyBuddy AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to custom styles -->
+</head>
+
+<body class="bg-white dark:bg-black text-gray-900 dark:text-white transition duration-300">
+  <!-- Navigation Bar -->
+  <nav class="flex items-center justify-between p-4 bg-white dark:bg-gray-800 shadow">
+    <div class="text-xl font-bold">StudyBuddy AI</div>
+    <button id="theme-toggle" class="px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-700 transition">
+      🌞
+    </button>
+  </nav>
+
+  <!-- Header -->
+  <header class="text-center p-8">
+    <h1 class="text-4xl font-bold mb-2">StudyBuddy AI</h1>
+    <p class="text-xl">Your Autonomous Study Assistant</p>
+  </header>
+
+  <!-- Searchable Science & Tech Dropdown -->
+  <section class="container mx-auto px-4 py-6">
+    <h2 class="text-2xl font-semibold mb-4">Search Science & Tech Topics</h2>
+    <div class="relative w-full">
+      <input type="text" id="search-query" placeholder="Type keywords..." 
+        class="w-full px-4 py-2 rounded border border-gray-300 dark:border-gray-700 focus:outline-none">
+      <div id="dropdown-results" class="absolute w-full mt-2 bg-white dark:bg-gray-800 rounded shadow-lg hidden"></div>
+    </div>
+    <div id="response-box" class="mt-6 bg-white dark:bg-gray-800 p-4 rounded-lg shadow hidden"></div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
