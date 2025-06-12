@@ -1,4 +1,4 @@
-### **📌 StudyBuddy AI**
+#### ***📌 StudyBuddy AI***
 🚀 *An Autonomous Study Assistant that helps users with learning queries, personalized study schedules, and quick content summarization.*
 
 ---
