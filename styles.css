@@ -1,0 +1,41 @@
+.dark {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Ensuring all sections, responses, and dropdown items have readable text */
+.dark nav, .dark header, .dark section, .dark footer, .dark #response-box {
+    background-color: #111 !important; /* Slightly lighter black for readability */
+    color: white !important;
+}
+
+/* Fixing input fields to match dark mode */
+.dark input, .dark textarea {
+    background-color: #222 !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+/* Dropdown styling in dark mode */
+.dark .dropdown-box {
+    background-color: #222 !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+/* Fix dropdown item visibility */
+.dark .dropdown-item {
+    background-color: #222 !important;
+    color: white !important;
+}
+
+.dark .dropdown-item:hover {
+    background-color: #333 !important;
+}
+
+/* Fix response text visibility */
+.dark #response-box {
+    background-color: #222 !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
