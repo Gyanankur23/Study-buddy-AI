@@ -46,7 +46,7 @@ cd StudyBuddyAI
 ---
 
 ## **🌐 Live Demo**
-🔗 [Insert deployed GitHub Pages/Netlify URL here]  
+🔗 [https://gyanankur23.github.io/Study-buddy-AI/]
 
 ---
 
