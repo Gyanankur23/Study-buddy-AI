@@ -28,8 +28,8 @@ Gyanankur23/
 ## **⚡ Installation & Usage**
 1️⃣ **Clone the Repository**  
 ```bash
-git clone https://github.com/Gyanankur23/StudyBuddyAI.git
-cd StudyBuddyAI
+git clone https://github.com/Gyanankur23/StudybuddyAI.git
+cd StudybuddyAI
 ```
 
 2️⃣ **Run Locally**  
